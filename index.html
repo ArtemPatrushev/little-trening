@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="blackout"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="nav-menu">
+                <div class="nav-menu__item">
+                    <p>HOME</p>
+                    <ul class="menu">
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                    </ul>
+                </div>
+                <div class="nav-menu__item">
+                    <p>SERVICES</p>
+                    <ul class="menu">
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                    </ul>
+                </div>
+                <div class="nav-menu__item">
+                    <p>FEATURES</p>
+                    <ul class="menu">
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                    </ul>
+                </div>
+                <div class="nav-menu__item">
+                    <p>CONTACT</p>
+                    <ul class="menu">
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                        <li>Menu Point</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__main-text">
+                <p>HAVE A GOOD DAY</p>
+            </div>
+            <div class="header__bottom-text">
+                <img class="header__bottom-text__line" src="img/header_line.png" alt="img">
+                <p>JUST FOR YOU ON THEMEFOREST</p>
+                <img class="header__bottom-text__line" src="img/header_line.png" alt="img">
+            </div>
+            <div class="button-copy">
+                GET YOUR COPY NOW
+            </div>
+            <div class="caret-down">
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </header>
+    <form action="send.php" method="POST" class="modal-window">
+        <input class="modal-window__user-firstname" name="first-name" type="text" placeholder="Thomas" required>
+        <input class="modal-window__user-lastname" name="last-name" type="text" placeholder="Anderson" required>
+        <input class="modal-window__user-email" name="email" type="email" placeholder="email" required>
+        <button class="modal-window__btn">Submit</button>
+    </form>
+    <div class="information-about">
+        <div class="container">
+            <div class="about-block">
+                <img class="about-block__img" src="img/about_icon1.png" alt="image">
+                <p class="about-block__header">
+                    PROFESIONALS
+                </p>
+                <img class="about-block__line" src="img/about__line.png" alt="image">
+                <p class="about-block__text">
+                    Lorem ipsum dolor sit amet consectetur elit.
+                </p>
+            </div>
+            <div class="about-block">
+                <img class="about-block__img" src="img/about_icon2.png" alt="image">
+                <p class="about-block__header">
+                    PROFESIONALS
+                </p>
+                <img class="about-block__line" src="img/about__line.png" alt="image">
+                <p class="about-block__text">
+                    Lorem ipsum dolor sit amet consectetur elit.
+                </p>
+            </div>
+            <div class="about-block">
+                <img class="about-block__img" src="img/about_icon3.png" alt="image">
+                <p class="about-block__header">
+                    PROFESIONALS
+                </p>
+                <img class="about-block__line" src="img/about__line.png" alt="image">
+                <p class="about-block__text">
+                    Lorem ipsum dolor sit amet consectetur elit.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="template">
+        <div class="container">
+            <div class="about-template">
+                <img class="about-template__img" src="img/template_about_img1.png" alt="image">
+                <p class="about-template__header">
+                    RESPONSIVE EMAIL TEMPLATE
+                </p>
+                <img class="about-template__line" src="img/about_template_line.png" alt="image">
+                <p class="about-template__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis.
+                </p>
+                <p class="about-template__show-text"></p>
+                <div class="about-template__button">Read more</div>
+            </div>
+            <div class="about-template">
+                <img class="about-template__img" src="img/template_about_img2.png" alt="image">
+                <p class="about-template__header">
+                    FULLY COMPATIBLE TEMPLATE
+                </p>
+                <img class="about-template__line" src="img/about_template_line.png" alt="image">
+                <p class="about-template__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis.
+                </p>
+                <p class="about-template__show-text"></p>
+                <div class="about-template__button">Read more</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./blink_caret.js"></script>
+    <script src="./scroll_animation.js"></script>
+    <script src="./show_text.js"></script>
+    <script src="./modal-window.js"></script>
+</body>
+</html>
